@@ -1,6 +1,6 @@
 # chat_gpt_demo
 
-A demo project for chat gpt using text-davinci-002-render and text-davinci-003.
+A demo project for chat gpt using __text-davinci-002-render__ and __text-davinci-003__.
 
 
 ## Installation
