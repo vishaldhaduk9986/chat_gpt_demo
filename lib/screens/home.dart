@@ -1,3 +1,4 @@
+import 'package:chat_gpt_demo/screens/code_edit/code_edit_demo.dart';
 import 'package:chat_gpt_demo/screens/demo1/webview.dart';
 import 'package:chat_gpt_demo/screens/demo2/chat_using_api.dart';
 import 'package:flutter/material.dart';
@@ -53,6 +54,12 @@ class _HomeState extends State<Home> {
                 () => {
                       Navigator.of(context).push(MaterialPageRoute(
                           builder: (_) => const GptChatAPIDemo())),
+                    }),
+            button(
+                'code-davinci-edit-001',
+                () => {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (_) => const CodeEditDemo())),
                     }),
           ],
         ),
